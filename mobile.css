@@ -48,20 +48,3 @@ iframe {
   margin-top: 8px;
   border-radius: 7px;
 }
-
-/* 추가 반응형: 400px 이하 초소형 화면 */
-@media (max-width: 400px) {
-  .dongle-header {
-    font-size: 2.1rem;
-  }
-  .toggle-content {
-    padding: 4px 1px;
-  }
-  .toggle-buttons button {
-    font-size: 0.9rem;
-    padding: 5px 8px;
-  }
-  iframe {
-    height: 70px;
-  }
-} 
