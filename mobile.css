@@ -1,0 +1,66 @@
+body {
+  font-size: 1.05rem;
+}
+
+header {
+  padding: 24px 0 8px 0;
+}
+
+.dongle-header {
+  font-size: 3rem;
+  letter-spacing: 0.03em;
+}
+
+main {
+  margin-top: 0;
+}
+
+.toggle-content {
+  padding: 10px 2px;
+  max-width: 99vw;
+  border-radius: 12px;
+}
+
+.toggle-buttons {
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.toggle-buttons button {
+  font-size: 0.98rem;
+  padding: 7px 12px;
+  border-radius: 22px;
+}
+
+.price-table-container {
+  padding: 8px 2px;
+  border-radius: 8px;
+}
+
+.price-table th, .price-table td {
+  padding: 5px 0;
+  font-size: 0.93rem;
+}
+
+iframe {
+  height: 100px;
+  margin-top: 8px;
+  border-radius: 7px;
+}
+
+/* 추가 반응형: 400px 이하 초소형 화면 */
+@media (max-width: 400px) {
+  .dongle-header {
+    font-size: 2.1rem;
+  }
+  .toggle-content {
+    padding: 4px 1px;
+  }
+  .toggle-buttons button {
+    font-size: 0.9rem;
+    padding: 5px 8px;
+  }
+  iframe {
+    height: 70px;
+  }
+} 
